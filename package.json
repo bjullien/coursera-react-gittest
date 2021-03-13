@@ -1,0 +1,24 @@
+{
+  "name": "git-test",
+  "version": "1.0.0",
+  "description": "this is a test directory to learn git and node",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bjullien/coursera-react-gittest.git"
+  },
+  "author": "Bruno Jullien",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bjullien/coursera-react-gittest/issues"
+  },
+  "homepage": "https://github.com/bjullien/coursera-react-gittest#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
